@@ -42,16 +42,30 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
-h2 .project {
+.btn-project {
+  border: 1px solid var(--basic-color);
+  color: var(--basic-color);
+  border-radius: 2px;
+  background-color: white;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.project {
   font-size: 64px;
   font-weight: bold;
 }
-.btn-app {
-  background: white;
-  border: 1px solid var(--basic-color);
-  border-radius: 4px;
-  color: var(--basic-color);
-  font-size: 18px;
-  line-height: 27px;
-  padding: 15px 30px;
+
+@media (max-width: 960px) {
+  .hero {
+    padding: 80px 20px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  .description {
+    text-align: center;
+  }
 }
