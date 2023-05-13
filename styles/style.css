@@ -34,6 +34,7 @@ p {
   line-height: 2;
   color: #272142;
 }
+
 .hero .btn-contact {
   background: var(--basic-color);
   border-radius: 4px;
@@ -67,5 +68,43 @@ p {
   }
   .description {
     text-align: center;
+  }
+}
+/*style about page*/
+.about-page {
+  padding: 140px 20px;
+}
+.about-page h1 {
+  font-size: 64px;
+  line-height: 1.2;
+}
+.about-page h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+  font-weight: bold;
+}
+.about-page p {
+  font-family: var(--default-font-family);
+  font-size: 16px;
+}
+.about-page img {
+  border-radius: 8px;
+}
+.about-page .btn {
+  background: var(--basic-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.about-page-section {
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+@media (max-width: 960px) {
+  .about-page {
+    padding: 80px 20px;
   }
 }
