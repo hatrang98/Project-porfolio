@@ -89,6 +89,7 @@ p {
 }
 .about-page img {
   border-radius: 8px;
+  max-width: 70%;
 }
 .about-page .btn {
   background: var(--basic-color);
@@ -106,5 +107,30 @@ p {
 @media (max-width: 960px) {
   .about-page {
     padding: 80px 20px;
+  }
+}
+
+/*style the work page*/
+.work-page {
+  padding: 140px 20px;
+}
+.work-page h1 {
+  font-size: 64px;
+}
+.work-page h3 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  font-weight: bold;
+}
+.work-page p {
+  font-size: 14px;
+  font-family: var(--default-font-family);
+}
+@media (max-width: 960px) {
+  .work-page {
+    padding: 80px 20px;
+  }
+  .work-page h1 {
+    font-size: 40px;
   }
 }
