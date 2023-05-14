@@ -134,3 +134,34 @@ p {
     font-size: 40px;
   }
 }
+/*style contact page*/
+.contact-page {
+  padding: 140px 50px;
+  text-align: center;
+}
+@media (max-width: 960px) {
+  .contact-page {
+    padding: 80px 20px;
+  }
+  .contact-page h1 {
+    font-size: 40px;
+  }
+}
+.contact-page h1 {
+  font-size: 64px;
+  margin-bottom: 50px;
+}
+.contact-page h3 {
+  margin-bottom: 0;
+  display: inline;
+  margin-left: 20px;
+}
+.contact-page a {
+  text-decoration: none;
+  display: block;
+  margin-bottom: 30px;
+  color: black;
+}
+.contact-page i {
+  font-size: 40px;
+}
