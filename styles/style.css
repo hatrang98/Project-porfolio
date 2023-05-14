@@ -66,7 +66,6 @@ p {
 @media (max-width: 960px) {
   .hero {
     padding: 80px 20px;
-    background: var(--basic-color);
   }
   h1 {
     font-size: 60px;
