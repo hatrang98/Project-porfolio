@@ -165,3 +165,55 @@ p {
 .contact-page i {
   font-size: 40px;
 }
+
+/*style header
+nav {
+  margin: 20px 0;
+}
+.logo {
+  max-height: 50px;
+  border-radius: 50%;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 10px;
+}
+nav a:hover {
+  color: var(--basic-color);
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142b2;
+  font-family: var(--default-font-family);
+  font-weight: bold;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav .active {
+  color: var(--basic-color);
+}
+*/
+.logo {
+  max-height: 50px;
+  border-radius: 50%;
+}
+.nav {
+  padding: 40px 0;
+}
+.nav-item {
+  margin-left: 30px;
+}
+.nav-item .nav-link {
+  color: #272142b2;
+  font-family: var(--default-font-family);
+  font-weight: bold;
+}
+.logo-wrap {
+  margin-left: 50px;
+}
