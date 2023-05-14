@@ -190,7 +190,6 @@ p {
   color: var(--basic-color);
 }
 .contact-page a {
-  text-decoration: none;
   display: block;
   margin-bottom: 30px;
   color: black;
@@ -198,8 +197,8 @@ p {
 .contact-page i {
   font-size: 40px;
 }
-.contact-page .contact-link :hover {
-  color: var(--basic-color) !important;
+.contact-page a :hover {
+  color: var(--basic-color);
 }
 
 /*style header
@@ -273,7 +272,6 @@ footer .contact-icon {
 }
 footer a {
   color: black;
-  font-size: 24px;
 }
 footer a :hover {
   color: var(--basic-color) !important;
@@ -303,4 +301,8 @@ footer .contact-box {
 }
 .contact-page footer .contact-icon {
   display: inline;
+}
+footer p {
+  font-size: 16px;
+  font-family: var(--default-font-family);
 }
